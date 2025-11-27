@@ -19,7 +19,7 @@
 
     <modules>
         <module>hmdp</module>
-        <module>sky-out</module>
+        <module>moment-out</module>
         <module>gateway</module>
     </modules>
 

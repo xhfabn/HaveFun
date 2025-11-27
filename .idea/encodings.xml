@@ -4,11 +4,11 @@
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hmdp/hm-dianping/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hmdp/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sky-out/sky-common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sky-out/sky-pojo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sky-out/sky-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sky-out/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sky-out/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moment-out/moment-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moment-out/moment-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moment-out/moment-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moment-out/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moment-out/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train12306/batch/src/main/java" charset="UTF-8" />

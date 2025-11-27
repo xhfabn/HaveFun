@@ -7,20 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gateway (1)" />
+        <module name="moment-pojo" />
         <module name="business" />
         <module name="common" />
+        <module name="moment-server" />
         <module name="batch" />
         <module name="member" />
-        <module name="sky-common" />
         <module name="generator" />
-        <module name="sky-pojo" />
+        <module name="moment-common" />
         <module name="hm-dianping" />
-        <module name="sky-server" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gateway" target="17" />
+      <module name="gateway (1)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,9 +33,9 @@
       <module name="generator" options="-parameters" />
       <module name="hm-dianping" options="-parameters" />
       <module name="member" options="-parameters" />
-      <module name="sky-common" options="-parameters" />
-      <module name="sky-pojo" options="-parameters" />
-      <module name="sky-server" options="-parameters" />
+      <module name="moment-common" options="-parameters" />
+      <module name="moment-pojo" options="-parameters" />
+      <module name="moment-server" options="-parameters" />
     </option>
   </component>
 </project>

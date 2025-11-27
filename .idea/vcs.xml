@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/hmdp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/sky-out" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/moment-out" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/train12306" vcs="Git" />
   </component>
 </project>

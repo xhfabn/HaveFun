@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/moment-out/moment-server/sql/moment_init.sql" value="2a8fa82d-7dab-4a28-aa38-9ba8662d8e34" />
+    <file url="file://$PROJECT_DIR$/moment-out/moment-server/sql/schema.sql" value="2a8fa82d-7dab-4a28-aa38-9ba8662d8e34" />
+    <file url="file://$PROJECT_DIR$/moment-out/moment-server/sql/seed_dev.sql" value="2a8fa82d-7dab-4a28-aa38-9ba8662d8e34" />
+  </component>
+</project>

@@ -9,3 +9,12 @@ dist/
 build/
 # 排除日志文件
 *.log
+# hmdp 排除项
+hmdp/node_modules/
+hmdp/target/
+hmdp/**/application-dev.yml
+
+# train12306 排除项
+train12306/node_modules/
+train12306/target/
+train12306/**/application-dev.yml

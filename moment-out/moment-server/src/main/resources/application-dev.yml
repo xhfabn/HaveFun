@@ -1,0 +1,38 @@
+moment:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: 1.13.152.152
+    port: 13306
+    database: moment_takeout
+    username: root
+    password: 123456
+  alioss:
+    endpoint: oss-cn-shenzhen.aliyuncs.com
+    access-key-id: LTAI5tHzX4fMjySKcCoCvYci
+    access-key-secret: vPKhVa4Kux8jUP6fU4614CQ3FW0wiC
+    bucket-name: cangqiongwaimaipbj
+  storage:
+    public-url: http://1.13.152.152/uploads
+    sftp:
+      host: 1.13.152.152
+      port: 22
+      username: root
+      password: Wjwhghg.6942
+      remote-dir: /data/moment/uploads
+
+  redis:
+    host: 1.13.152.152
+    port: 16379
+    password:
+    database: 0
+
+  wechat:
+    appid: wxd49a4d1c68be1046
+    secret: b5c06cc385a2c856bc3376f5b0ea1f93
+    mchid: 1561414331
+    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
+    privateKeyFilePath: C:\software\apiclient_key.pem
+    apiV3Key: CZBK51236435wxpay435434323FFDuv3
+    weChatPayCertFilePath: C:\software\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
+    notifyUrl: http://433c6990.r29.cpolar.top/notify/paySuccess
+    refundNotifyUrl: http://433c6990.r29.cpolar.top/notify/refundSuccess

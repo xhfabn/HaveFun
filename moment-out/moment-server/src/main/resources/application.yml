@@ -1,0 +1,80 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: moment-takeout-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  profiles:
+    active: dev
+  main:
+    allow-circular-references: true
+  datasource:
+    druid:
+      driver-class-name: ${moment.datasource.driver-class-name}
+      url: jdbc:mysql://${moment.datasource.host}:${moment.datasource.port}/${moment.datasource.database}?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+      username: ${moment.datasource.username}
+      password: ${moment.datasource.password}
+  redis:
+    host: ${moment.redis.host}
+    port: ${moment.redis.port}
+    password: ${moment.redis.password}
+    database: ${moment.redis.database}
+
+
+mybatis:
+  #mapper配置文件
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.moment.entity
+  configuration:
+    #开启驼峰命名
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    com:
+      moment:
+        mapper: debug
+        service: info
+        controller: info
+
+moment:
+  jwt:
+    # 设置jwt签名加密时使用的秘钥
+    admin-secret-key: wujiawei
+    # 设置jwt过期时间
+    admin-ttl: 72000000
+    # 设置前端传递过来的令牌名称
+    admin-token-name: token
+    user-secret-key: jiaweiwu
+    user-ttl: 72000000
+    user-token-name: authentication
+
+  alioss:
+    endpoint: ${moment.alios.endpoint}
+    access-key-id: ${moment.alioss.access-key-id}
+    access-key-secret: ${moment.alioss.access-key-secret}
+    bucket-name: ${moment.alioss.bucket-name}
+
+  wechat:
+    appid: ${moment.wechat.appid}
+    secret: ${moment.wechat.secret}
+    mchid: ${moment.wechat.mchid}
+    mchSerialNo: ${moment.wechat.mchSeriaNo}
+    privateKeyFilePath: ${moment.wechat.privateKeyFilePath}
+    apiV3Key: ${moment.wechat.apiV3Key}
+    weChatPayCertFilePath: ${moment.wechat.weChatPayCertFilePath}
+    notifyUrl: ${moment.wechat.notifyUrl}
+    refundNotifyUrl: ${moment.wechat.refundNotifyUrl}
+
+
+#    mchid: ${moment.wechat.mchid}
+#    mchSeriaNo: ${moment.wechat.mchSeriaNo}
+#    privateKeyFilePath: ${moment.wechat.privateKeyFilePath}
+#    apiV3Key: ${moment.wechat.apiV3Key}
+#    weChatPayCertFilePath: ${moment.wechat.weChatPayCertFilePath}
+#    notifyUrl: ${moment.wechat.notiifyUr}
+#    refundNotifyUrl: ${moment.wechat.refundNotifyUrl}

@@ -4,3 +4,11 @@
 *.class
 *Test.java
 **/test/
+# 必须添加：排除所有 node_modules
+node_modules/
+# 排除缓存文件（比如 .cache 目录）
+**/.cache/
+# 排除打包产物、日志等
+dist/
+build/
+*.log

@@ -6,11 +6,7 @@ moment:
     database: moment_takeout
     username: root
     password: 123456
-  alioss:
-    endpoint: oss-cn-shenzhen.aliyuncs.com
-    access-key-id: LTAI5tHzX4fMjySKcCoCvYci
-    access-key-secret: vPKhVa4Kux8jUP6fU4614CQ3FW0wiC
-    bucket-name: cangqiongwaimaipbj
+
   storage:
     public-url: http://1.13.152.152/uploads
     sftp:

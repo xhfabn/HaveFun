@@ -1,0 +1,12 @@
+package com.wujiawei.business.req;
+
+import com.wujiawei.common.req.PageReq;
+
+public class TrainQueryReq extends PageReq {
+
+    @Override
+    public String toString() {
+        return "TrainQueryReq{" +
+                "} " + super.toString();
+    }
+}
